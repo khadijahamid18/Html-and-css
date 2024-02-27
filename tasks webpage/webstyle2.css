@@ -1,0 +1,119 @@
+.main {
+    height: 70px;
+    width: 1350px;
+    background-color: darkslategray;
+    border-bottom: 4px solid blueviolet;
+}
+.usman {
+    color: blueviolet;
+    padding: 30px;
+}
+.tech {
+    color: white;
+}
+.as {
+    color: white;
+}
+.heading { 
+    text-align: left;
+    display: inline;
+    padding: 90px;
+    margin-top: 80px;
+}
+.navbar {
+    float: right;
+    text-align: right;
+    display: inline;
+    padding-left: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+    color: blueviolet;
+}
+.learn {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.darkgray {
+    height: 80px;
+    width: 1350px;
+    background-color: darkslategray;
+    border-collapse: collapse;
+}
+.head {
+    display: inline;
+    padding-top: 100px;
+    margin-top: 50px;
+    padding: 150px;
+}
+.input {
+    display: inline;
+    float: right;
+    padding-left: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.subscribe {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.head3 {
+    text-align: center;
+}
+.what {
+    color: blueviolet;
+}
+.container {
+    text-align: center;
+    background-color: white;
+}
+.our {
+    color: blueviolet;
+}
+.box {
+    background-color: darkslategray;
+    height: 480px;
+}
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+.cont {
+    color: blueviolet;
+}
+.form {
+    padding: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 90px;
+    margin-left: 80px;
+    padding-top: 40px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 20px;
+}
+.button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.link {
+    height: 60px;
+    width: 1350px;
+    background-color: blueviolet;
+    text-align: center;
+}
+.link a {
+    height: 60px;
+    width: 1350px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+
+}

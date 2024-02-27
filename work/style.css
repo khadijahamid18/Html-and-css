@@ -1,0 +1,70 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+.main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    height: 650px;
+    border: 5px solid rgb(39, 183, 240);
+    border-radius: 35px;
+    padding: 30px;
+}
+.color {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(41, 185, 241);
+}
+.heading {
+    text-align: center; 
+}
+.form {
+    padding: 1rem;
+}
+
+.form-group{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-element{
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+}
+
+.form-input, .form-element{
+    width: 100%;
+    display: block;
+}
+
+.form-group>.form-input{
+    width: 50%;
+}
+
+.form-element>input{
+    width: 100%;
+    padding: 0.7em;
+    border: 2px solid rgb(26, 169, 226);
+    border-radius: 5px;
+}
+
+.text-right{
+    text-align: right;
+}
+.submit {
+    color: white;
+    background-color: rgb(28, 160, 212);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.previous {
+    padding: 10px;
+    border-radius: 5px;
+}

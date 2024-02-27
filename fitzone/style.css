@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.fixed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(80, 67, 67);
+    color: white;
+    border-bottom: 4px solid rgb(248, 62, 62);
+    position: fixed;
+    top: 0;
+    opacity: 0.9;
+}
+
+
+
+
+.links a {
+
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 70px;
+    margin: 1rem;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+/*.img1 {
+    width: 100%;
+    height: 500px;
+} */
+
+
+/* Showcase styling */
+.picture {
+    background: url('./fit1.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-heading {
+    font-size: 3.3rem;
+}
+
+.lead {
+    font-size: 1.2rem;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.showcase-content p {
+    margin-bottom: 20px;
+}
+
+.showcase-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.read {
+    color: white;
+    background-color: rgb(161, 18, 18);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.head {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.head h1 {
+    font-size: 3.2rem;
+}
+
+.our {
+    color: red;
+}
+
+.box1 {
+    display: inline;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    margin-left: 240px;
+    text-align: center;
+    background-color: rgb(34, 53, 53);
+    color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.box1 p {
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+.box2 {
+    display: inline;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: rgb(34, 53, 53);
+    color: white;
+    border-radius: 20px;
+}
+
+.box2 p {
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+.box3 {
+    display: inline;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    margin-right: 240px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(34, 53, 53);
+    color: white;
+}
+
+.box3 p {
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+.btn1 {
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 750px;
+}
+
+.con1 {
+    display: inline;
+    width: 350px;
+    height: 700px;
+    text-align: center;
+    margin-left: 110px;
+    border: 1px solid gray;
+    color: black;
+}
+
+.con2 {
+    display: inline;
+    width: 350px;
+    height: 700px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    color: black;
+}
+
+.con3 {
+    display: inline;
+    width: 350px;
+    height: 700px;
+    text-align: center;
+    margin-right: 110px;
+    border: 1px solid gray;
+    color: black;
+}
+
+.cont p {
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.img1 {
+    width: 350px;
+    height: 500px;
+}
+
+.img2 {
+    width: 350px;
+    height: 500px;
+}
+
+.img3 {
+    width: 350px;
+    height: 500px;
+}
+
+.more {
+    color: rgb(66, 173, 216);
+    border: 1px solid rgb(66, 173, 216);
+    ;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.black {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(73, 69, 69);
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    width: 500px;
+    height: 300px;
+    display: inline;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.gallery {
+    width: 800px;
+    height: 300px;
+    margin-top: 50px;
+    display: inline;
+    color: white;
+    margin-left: 50px;
+}
+
+.gallery h1 {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.p {
+    font-size: small;
+    color: gray;
+}
+
+.gallery p {
+    padding: 10px;
+}
+
+
+.dark {
+    background-image: url(fit2.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* min-height: 50vh; */
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    color: #fff;
+}
+
+.detail {
+    display: inline;
+    height: 500px;
+    width: 660px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.detail h2 {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.detail p {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.redd {
+    color: rgb(207, 26, 26);
+    border: 1px solid rgb(207, 26, 26);
+    cursor: pointer;
+    margin-right: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.fill {
+    display: inline;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.fill h1 {
+    padding: 10px;
+}
+
+.sign {
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.end {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(73, 69, 69);
+    color: white;
+    text-align: center;
+
+}
+
+.end p {
+    padding: 20px;
+    border-top: 4px solid rgb(201, 30, 30);
+}

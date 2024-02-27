@@ -1,0 +1,538 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+.container {
+    background-image: url(laptop.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.home {
+    border-left: 2px solid black;
+   
+   
+}
+.text {
+    text-align: left;
+    padding: 30px;
+    margin-left: 50px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    padding: 2rem;
+    text-align: right;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 1rem;
+    line-height: 70px;
+    /*You can play with it.*/
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: gray;
+}
+
+.btn-1 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+    float: right;
+}
+
+.btn-1:hover {
+    color: white;
+    background-color: gray;
+}
+
+.p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    float: center;
+    font-weight: bolder;
+}
+
+.learn {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    margin-left: 600px;
+    border: none;
+    border-radius: 20px;
+    display: center;
+}
+
+.learn:hover {
+    color: white;
+    background-color: gray;
+}
+
+.box {
+    background-color: beige;
+    width: 1275px;
+    height: 120px;
+    text-align: center;
+    padding: 30px;
+}
+
+.para {
+    color: black;
+
+}
+
+.quote {
+    color: darkgray;
+}
+
+.latest {
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+.my {
+    padding-left: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 60px;
+    margin-left: 10px;
+    height: 500px;
+}
+
+.Python {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.pyth {
+    height: 220px;
+}
+
+.android {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.and {
+    height: 220px;
+}
+
+.web {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.develop {
+    height: 220px;
+}
+
+.design {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.web-designing {
+    height: 220px;
+}
+
+.h {
+    padding: 10px;
+}
+
+.btn {
+    display: block;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    padding: 5px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.coding {
+    background-image: url(coding.webp);
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 250px;
+}
+
+.btn-2 {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-2:hover {
+    color: white;
+    background-color: gray;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 60px;
+    margin-left: 10px;
+    height: 400px;
+}
+
+.net-1 {
+    height: 200px;
+}
+
+.box-1 {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+}
+
+.box-2 {
+
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+}
+
+.box-3 {
+    
+    width: 300px;
+    height: 400px;   
+    display: flex;
+    flex-direction: column;   
+    background-color: white;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.join {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.join:hover {
+    color: white;
+    background-color: rgb(90, 85, 85);
+}
+
+.end {
+    height: 100px;
+    color: white;
+    background-color: rgb(71, 68, 68);
+    width: 100%;
+}
+
+.last {
+    text-align: center;
+    padding: 40px;
+}
+
+.gallery {
+    background-image: url(gallery.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height: 80vh;
+    
+}
+
+.h2 {
+    text-align: center;
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1450px;
+
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.about {
+    background-image: url(about.jpg) ; 
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height: 80vh;
+}
+.whoweare {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.container2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.cont1 {
+    width: 600px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.cont2 {
+    width: 600px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.cont3 {
+    width: 600px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 0;
+   
+}
+.cont4 {
+    width: 600px;
+    height: 250px;
+    margin-left: 80px;
+    
+}
+.team {
+    width: 550px;
+    height: 250px;
+}
+
+
+.contact {
+    background-image: url(contact.jpg);
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height: 80vh;
+    /* filter: brightness(70%); */
+    
+}
+.dark {
+    height: 100%;  
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.all {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+.form {
+    width: 50%;
+    height: 600px;
+    padding: 1rem;
+    
+}
+.info {
+    width: 50%;
+    height: 600px;
+}
+.group {
+
+    display: block;
+    width: 100%;
+    padding: 60px;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0;
+    box-sizing: border-box;
+}
+.element {
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    /* width: 50%; */
+    display: block;
+    line-height: 10px;
+}
+.button     {
+    padding: 10px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+.button:hover {
+    color: white;
+    background-color: darkslategray;
+}
+
+/* .element2   {
+    padding: 5rem;
+    width: 100px;
+    height: 30px;
+} */
+
+/* .form-group>.form-input{
+    width: 50%;
+} */
+/* .form-input, .form-element{
+    width: 100%;
+    display: block;
+} */
+
+.app {
+    width: 150px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.us {
+    font-size: xx-large;
+}
+
+
+.contact-form h1{
+    color: #000000;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.contact-form label, .contact-form input{
+    display: block;
+    width: 100%;
+}
+
+.contact-form textarea{
+    width: 100%;
+    resize: vertical;
+}
+
+.contact-form>.group{
+    padding: 0 60pt;
+}
+.contact-form {
+    width: 50%;
+}
+
+.contact-form input{
+    margin: 10px 0;
+    padding: 10px;
+}
+.info h1{
+    color: #000000;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+}

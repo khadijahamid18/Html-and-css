@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.head {
+    display: inline;
+    text-align: left;
+    padding: auto;
+    margin-left: 100px;
+    padding-top: 20px ;
+}
+.links a {
+    display: inline;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    margin: 1rem;
+    line-height: 70px;
+}
+.app {
+    display: inline;
+    text-align: right;
+    padding: auto;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.down {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.big {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    /* height: 500px; */
+}
+.heading {
+    display: inline;
+    width: 600px;
+    height: 300px;
+    padding-left: 60px;
+    padding-top: 60px;
+    margin-left: 0;
+}
+.heading h1 {
+    font-size: 2.7rem;
+}
+.book {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cars {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: -3px 5px 5px 0px;
+}
+.car {
+    display: inline;
+    width: 500px;
+    height: 300px;
+}
+.carr {
+    width: 630px;
+    height: 400px;
+}
+
+.icons {
+    /* width: 100%; */
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.i1 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+.i2 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.i3 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.i4 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.i15{
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.i6 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.i7 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.i8 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin-right: 100px;
+}
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.img {
+    display: inline;
+    height: 450px;
+    width: 650px;
+    padding-left: 80px;
+}
+.image {
+    height: 400px;
+    width: 500px;
+    box-shadow: -5px 5px 13px 0px ;
+}
+.text {
+    display: inline;
+    height: 450px;
+    width: 650px;
+}
+.text h2{
+    color: blue;
+    padding: 20px;
+}
+.text p {
+    padding-bottom: 20px;
+}
+.text h1 {
+    font-size: 2.8rem;
+}
+
+
+.picture {
+   
+    background: url('black.jpeg') no-repeat center center/cover;
+    height: 70vh;
+    /* color: #fff; */
+}
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.service {
+    /* width: 100%;
+    height: 300px; */
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.service h2 {
+    color: blue;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+.service h1 {
+    padding: 10px;
+}
+.boxes {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.box1 {
+    display: inline;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    background-color: white;
+    box-shadow: -5px 5px 13px 0px ;
+}
+.box2 {
+    display: inline;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: -5px 5px 13px 0px ;
+}
+.box3 {
+    display: inline;
+    width: 300px;
+    height: 300px;
+    margin-right: 150px;
+    background-color: white;
+    box-shadow: -5px 5px 13px 0px ;
+}
+.clr {
+    width: 300px;
+    height: 10px;
+    padding: 0;
+    background-color: blue;
+}
+.imag {
+    width: 100px;
+    height: 100px;
+}
+
+
+.collection {
+    height: 200px;
+    text-align: center;
+    margin-top: 250px;
+}
+.collection h2 {
+    color: blue;
+}
+.collection h1 {
+    font-size: 2.7rem;
+    padding: 20px;
+}
+
+.link a {
+    /* display: inline;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+    padding: 20px 100px;
+    line-height: 70px;
+    font-size: 1.4rem;
+    border-bottom: 4px solid gray; */
+
+    float: left;
+    display: block;
+    /* display: inline; */
+    color: black;
+    text-align: center;
+    padding: 10px 120px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid gray;
+}
+
+
+.boox {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-between;
+}
+.boox2 {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.b1 {
+    display: inline;
+    width: 270px;
+    height: 320px;
+    margin-left: 200px;
+    box-shadow: -3px 5px 10px 0px ;
+}
+.b1 h2 {
+    padding-left: 10px;
+}
+.b1 p {
+    padding-left: 10px;
+}
+.b2 {
+    display: inline;
+    width: 270px;
+    height: 320px;
+    box-shadow: -3px 5px 10px 0px ;
+}
+.b2 h2 {
+    padding-left: 10px;
+}
+.b2 p {
+    padding-left: 10px;
+}
+.b3 {
+    display: inline;
+    width: 270px;
+    height: 320px;
+    margin-right: 200px;
+    box-shadow: -3px 5px 10px 0px ;
+}
+.b3 h2 {
+    padding-left: 10px;
+}
+.b3 p {
+    padding-left: 10px;
+}
+.pic {
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+}
+.btn1 {
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px 80px;
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: -3px 5px 10px 0px ;
+}
+.btn {
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px 80px;
+}
+.red {
+    color: red;
+    font-size: 1.1rem;
+}
+.day {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.see {
+    height: 100px;
+    margin-top: 60px;
+    text-align: center;
+}
+.blue {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.pix {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 30px;
+    justify-content: space-between;
+}
+.pix h2{
+    display: inline;
+    text-align: left;
+}
+.pix p {
+    display: inline;
+    text-align: right;
+    color: gray;
+}
+
+.Blue {
+    background: url('bluee.jpg') no-repeat center center/cover;
+    height: 70vh;
+    margin: 10px 30px;
+    text-align: center;
+    color: white;
+    margin-top: -600px;
+}
+.pics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px ;
+    margin-bottom: -70px;
+}
+.Blue h1{
+    padding: 30px 10px;
+    margin-top: 30px;
+}
+.apple {
+    margin-right: 30px;
+    height: 100px;
+    margin-left: 300px;
+    width: 350px;
+}
+.google {
+    margin-right: 300px;
+    height: 100px;
+    width: 350px;
+}
+
+.Black {
+    background: url('black.jpeg') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    /* margin-top: -100px; */
+    margin-top: 200px;
+}
+.linkk a {
+    display: inline;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    line-height: 70px;
+}
+.logo {
+    float: right;
+}
+.l1 {
+    margin-right: 40px;
+    margin-bottom: 10px ;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.top1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    justify-content: space-between;
+}
+.head1 {
+    display: inline;
+    text-align: left;
+    padding: auto;
+    margin-left: 100px;
+    padding-top: 20px ;
+}

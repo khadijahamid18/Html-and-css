@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+    <section id="home">
+        <div class="black" id="navbar">
+            <div class="head">
+                <img class="book" src="icon.jpg" />
+                <h1> <span class="edge">Edge</span> <span class="led"> Ledger</span></h1>
+            </div>
+            <div class="links">
+                <span class="nav"><a href="#home">Home</a></span>
+                <span class="nav"><a href="#what">What</a></span>
+                <span class="nav"><a href="#who">Who</a></span>
+                <span class="nav"><a href="#clients">Clients</a></span>
+                <span class="nav"> <span class="bar"><a href="#contact">Contact</a></span></span>
+            </div>
+        </div>
+
+
+        <!-- <section></section> -->
+
+        <div class="picture">
+            <div class="dark">
+                <!--  <div class="headings"> -->
+                <h1> The Sky is the Limit </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, perferendis!</p>
+                <button class="read">Read More</button>
+            </div>
+        </div>
+    </section>
+    <!-- </div> -->
+
+    <!-- section:what we do -->
+    <section id="what">
+
+
+        </div>
+        <h2 class="do"><span class="green1">What</span> We Do</h2>
+
+        <div class="whatt">
+
+            <div class="invest">
+                <img class="img1" src="logo1.jpg" />
+                <h3>Investment Banking</h3>
+                <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Alias, earum.</p>
+            </div>
+            <div class="port">
+                <img class="img1" src="logo2.png" />
+                <h3>Portfolio Management</h3>
+                <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Alias, earum.</p>
+            </div>
+            <div class="tax">
+                <img class="img1" src="logo3.jpg" />
+                <h3>Tax & Custodials</h3>
+                <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Alias, earum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="who">
+
+        <div class="container">
+
+            <div class="cont1">
+                <img class="con" src="img1.jpg" />
+            </div>
+            <div class="cont2">
+                <h2><span class="whoo">Who</span> Are We</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint numquam obcaecati dolorum excepturi
+                    aperiam id possimus, veritatis similique qui, nihil explicabo corrupti architecto dolores omnis
+                    perspiciatis maiores sed odit quae?</p>
+                <h4><b>Our Team </b> </h4>
+                <p class="p1"> Mohsin Shoaib: CEO</p>
+                <p class="p1"> Shahzaib Sarwar: Vice CEO </p>
+                <p class="p1"> Salman Talat: Senior Vice President </p>
+                <p class="p1"> Ali Ahmad: Junior Vice President</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients">
+        <div class="clients">
+            <h2 class="our"><span class="s">Our</span> Clients</h2>
+            <div class="l1">
+                <img class="img" src="i1.jpeg" />
+            </div>
+            <div class="l2">
+                <img class="img" src="i2.jpeg" />
+            </div>
+            <div class="l3">
+                <img class="img" src="i3.jpeg" />
+            </div>
+            <div class="l4">
+                <img class="img" src="i4.jpeg" />
+            </div>
+            <div class="l5">
+                <img class="img" src="i5.jpeg" />
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <div class="container1">
+            <div class="fill">
+                <h2>Please fill Form to Contact Us</h2>
+                <form>
+                    <div class="input">
+                        <label for="name">Name</label><br>
+                        <input type="text"
+                            style="width: 200%; border: 1px solid black; padding: 5px;border-radius: 5px;" /><br>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label><br>
+                        <input type="text" style="width: 200%;border: 1px solid black;padding: 5px;border-radius: 5px;""/><br>
+                </div>
+                <div class=" input">
+                        <label for="number">Phone Number</label><br>
+                        <input type="text" style="width: 200%;border: 1px solid black;padding: 5px;border-radius: 5px;""/><br>
+                </div>
+                <div class=" input">
+                        <label for="password">Password</label><br>
+                        <input type="text" style="width: 200%;border: 1px solid black;padding: 5px;border-radius: 5px;""/><br> <br>
+                </div>
+                <button class=" btn">Sign Up</button>
+                </form>
+            </div>
+            <div class="pic">
+                <img class="pic1" src="img2.jpg" />
+            </div>
+
+        </div>
+    </section>
+
+    <div class="end">
+        <p class="last"> Edge Ledger © All rights reserved , 2021</p>
+    </div>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
